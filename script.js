@@ -19,7 +19,7 @@
   var WA_TEXTO_BASE = 'Hola, vi la página de Cerrajería El Pato y necesito ayuda con una cerradura.';
   var ZONA_HORARIA = 'America/Mexico_City';
   // Horario de servicio por día (0 = domingo): [apertura, cierre] en horas de 24 h
-  var HORARIO = { 0: [10, 18], 1: [8, 18], 2: [8, 18], 3: [8, 18], 4: [8, 18], 5: [8, 18], 6: [9, 18] };
+  var HORARIO = { 0: [10, 20], 1: [8, 20], 2: [8, 20], 3: [8, 20], 4: [8, 20], 5: [8, 20], 6: [9, 20] };
 
   /* ==========================================================================
      UTILIDADES

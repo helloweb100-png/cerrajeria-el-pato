@@ -59,9 +59,9 @@
   },
   "hasMap": "https://www.google.com/maps/search/?api=1&query=Calzada+de+las+%C3%81guilas+793+%C3%81lvaro+Obregón+01759+Ciudad+de+M%C3%A9xico",
   "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:00", "closes": "18:00" },
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "18:00" },
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "18:00" }
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:00", "closes": "20:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "20:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "20:00" }
   ]
 }
 </script>
@@ -78,7 +78,7 @@
     {
       "@type": "Question",
       "name": "¿Tienen servicio a domicilio?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Sí. Damos servicio a domicilio de lunes a viernes de 8:00 am a 6:00 pm, sábados de 9:00 am a 6:00 pm y domingos de 10:00 am a 6:00 pm, y también atendemos en días festivos." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Sí. Damos servicio a domicilio de lunes a viernes de 8:00 am a 8:00 pm, sábados de 9:00 am a 8:00 pm y domingos de 10:00 am a 8:00 pm, y también atendemos en días festivos." }
     },
     {
       "@type": "Question",
@@ -93,7 +93,7 @@
     {
       "@type": "Question",
       "name": "¿Dan servicio las 24 horas?",
-      "acceptedAnswer": { "@type": "Answer", "text": "No. Actualmente atendemos solo en el horario publicado y no ofrecemos servicio de emergencia de madrugada." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Solo para emergencias: atendemos emergencias las 24 horas. Los demás servicios los damos en el horario publicado." }
     }
   ]
 }
@@ -539,10 +539,11 @@
       <div class="hrs" data-reveal>
         <h3><svg class="ico" width="22" height="22" aria-hidden="true"><use href="#i-clock"/></svg>Horario de servicio</h3>
         <ul>
-          <li data-days="1,2,3,4,5"><span>Lunes a viernes</span><b>8:00 am – 6:00 pm</b></li>
-          <li data-days="6"><span>Sábados</span><b>9:00 am – 6:00 pm</b></li>
-          <li data-days="0"><span>Domingos</span><b>10:00 am – 6:00 pm</b></li>
+          <li data-days="1,2,3,4,5"><span>Lunes a viernes</span><b>8:00 am – 8:00 pm</b></li>
+          <li data-days="6"><span>Sábados</span><b>9:00 am – 8:00 pm</b></li>
+          <li data-days="0"><span>Domingos</span><b>10:00 am – 8:00 pm</b></li>
           <li class="hrs__fest"><span>Días festivos</span><b>También atendemos</b></li>
+          <li class="hrs__fest"><span>Solo emergencias</span><b>24 horas</b></li>
         </ul>
         <p class="status status--light" data-status><span class="status__dot"></span><span class="status__txt">Horario regular de servicio</span></p>
       </div>
@@ -596,7 +597,7 @@
       </details>
       <details data-reveal>
         <summary>¿Tienen servicio a domicilio?</summary>
-        <div class="faq__a"><p>Sí. Damos servicio a domicilio de lunes a viernes de 8:00 am a 6:00 pm, sábados de 9:00 am a 6:00 pm y domingos de 10:00 am a 6:00 pm, y también atendemos en días festivos.</p></div>
+        <div class="faq__a"><p>Sí. Damos servicio a domicilio de lunes a viernes de 8:00 am a 8:00 pm, sábados de 9:00 am a 8:00 pm y domingos de 10:00 am a 8:00 pm, y también atendemos en días festivos.</p></div>
       </details>
       <details data-reveal>
         <summary>¿Venden e instalan cerraduras?</summary>
@@ -608,7 +609,7 @@
       </details>
       <details data-reveal>
         <summary>¿Dan servicio las 24 horas?</summary>
-        <div class="faq__a"><p>No. Actualmente atendemos solo en el horario publicado y no ofrecemos servicio de emergencia de madrugada.</p></div>
+        <div class="faq__a"><p>Solo para emergencias: atendemos emergencias las 24 horas. Los demás servicios los damos en el horario publicado.</p></div>
       </details>
     </div>
   </div>
